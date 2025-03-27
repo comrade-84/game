@@ -40,6 +40,7 @@ let score = 20;
         score--;
          document.querySelector('.score').textContent = score;
         }
+
         
     }
 }
@@ -58,6 +59,7 @@ function reset (){
 checkBtn.addEventListener('click',
     function(){
        checker() ;
+       inputValue.value = "";
     }
 );
 
